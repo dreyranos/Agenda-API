@@ -1,0 +1,142 @@
+object formPrincipal: TformPrincipal
+  Left = 0
+  Top = 0
+  ClientHeight = 677
+  ClientWidth = 900
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 0
+  object StatusBar1: TStatusBar
+    Position.Y = 655.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 900.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+  object lyt_menu: TLayout
+    Align = Left
+    Position.Y = 25.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 630.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object fundo_menu: TRectangle
+      Align = Client
+      Fill.Color = xFF2C5060
+      Size.Width = 50.000000000000000000
+      Size.Height = 630.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object SpeedButton1: TSpeedButton
+        Align = Top
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'SpeedButton1'
+        TextSettings.Trimming = None
+      end
+    end
+  end
+  object lyt_main: TLayout
+    Align = Client
+    Size.Width = 850.000000000000000000
+    Size.Height = 630.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object fundo_main: TRectangle
+      Align = Client
+      Size.Width = 850.000000000000000000
+      Size.Height = 630.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Layout1: TLayout
+        Align = Top
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 16.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Position.X = 16.000000000000000000
+        Position.Y = 16.000000000000000000
+        Size.Width = 818.000000000000000000
+        Size.Height = 185.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object listDias: TListBox
+          Align = Client
+          Size.Width = 818.000000000000000000
+          Size.Height = 185.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'transparentlistboxstyle'
+          TabOrder = 0
+          DisableFocusEffect = True
+          ItemHeight = 165.000000000000000000
+          ItemWidth = 165.000000000000000000
+          DefaultItemStyles.ItemStyle = ''
+          DefaultItemStyles.GroupHeaderStyle = ''
+          DefaultItemStyles.GroupFooterStyle = ''
+          ListStyle = Horizontal
+          Viewport.Width = 818.000000000000000000
+          Viewport.Height = 185.000000000000000000
+        end
+      end
+      object Layout2: TLayout
+        Align = Top
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 16.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Position.X = 16.000000000000000000
+        Position.Y = 404.000000000000000000
+        Size.Width = 818.000000000000000000
+        Size.Height = 171.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+      end
+      object Layout9: TLayout
+        Align = Top
+        Margins.Left = 16.000000000000000000
+        Margins.Top = 16.000000000000000000
+        Margins.Right = 16.000000000000000000
+        Position.X = 16.000000000000000000
+        Position.Y = 217.000000000000000000
+        Size.Width = 818.000000000000000000
+        Size.Height = 171.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+      end
+    end
+  end
+  object lyt_header: TLayout
+    Align = Top
+    Size.Width = 900.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object fundo_header: TRectangle
+      Align = Client
+      Fill.Color = xFF2C5060
+      Size.Width = 900.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object spd_x: TSpeedButton
+        Align = Right
+        Position.X = 875.000000000000000000
+        Size.Width = 25.000000000000000000
+        Size.Height = 25.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'X'
+        TextSettings.Trimming = None
+        object fundo_x: TRectangle
+          Align = Client
+          Fill.Color = xFFA71E1E
+          Size.Width = 25.000000000000000000
+          Size.Height = 25.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+      end
+    end
+  end
+end

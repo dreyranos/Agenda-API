@@ -1,0 +1,76 @@
+object frameDia: TframeDia
+  Margins.Bottom = 8.000000000000000000
+  Size.Width = 165.000000000000000000
+  Size.Height = 165.000000000000000000
+  Size.PlatformDefault = False
+  object lyt_principal: TLayout
+    Align = Contents
+    Size.Width = 165.000000000000000000
+    Size.Height = 165.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lyt_data: TLayout
+      Align = Top
+      Size.Width = 165.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object rect_fundo_data: TRectangle
+        Align = Client
+        Fill.Color = xFF2C5060
+        Size.Width = 165.000000000000000000
+        Size.Height = 33.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object txt_data: TText
+          Align = Client
+          Size.Width = 165.000000000000000000
+          Size.Height = 33.000000000000000000
+          Size.PlatformDefault = False
+          Text = '15/05/2025'
+          TextSettings.Font.Family = 'Arial'
+          TextSettings.Font.Size = 16.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+        end
+      end
+    end
+    object rect_main: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 165.000000000000000000
+      Size.Height = 132.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFFC9C9C9
+      object txt_agendamento_numero: TText
+        Align = Center
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Size.Width = 123.000000000000000000
+        Size.Height = 77.000000000000000000
+        Size.PlatformDefault = False
+        Text = '8'
+        TextSettings.Font.Family = 'Arial'
+        TextSettings.Font.Size = 36.000000000000000000
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+      end
+      object txt_agendamento_label: TText
+        Align = Bottom
+        Margins.Left = 8.000000000000000000
+        Margins.Top = 8.000000000000000000
+        Margins.Right = 8.000000000000000000
+        Margins.Bottom = 8.000000000000000000
+        Position.X = 8.000000000000000000
+        Position.Y = 90.000000000000000000
+        Size.Width = 149.000000000000000000
+        Size.Height = 34.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Agendamentos'
+        TextSettings.Font.Family = 'Arial'
+        TextSettings.Font.Size = 18.000000000000000000
+      end
+    end
+  end
+end

@@ -1,0 +1,6 @@
+﻿client/__history
+client/Win32
+__pycache__
+*.res
+*.local
+client/AgendaBot.identcache
